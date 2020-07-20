@@ -5,7 +5,11 @@ import time
 import difflib
 import sys
 
+# Constants #
 
+PATH = r"C:\Users\alxhi\Documents\Code\Python\chromedriver.exe"
+FILENAME = "recentchapters.txt"
+print("[STARTING]")
 
 
 
@@ -34,9 +38,7 @@ def compare_newest(str, str2):
 
 
 
-PATH = r"C:\Users\alxhi\Documents\Code\Python\chromedriver.exe"
-FILENAME = "recentchapters.txt"
-print("[STARTING]")
+
 file_string = ""
 driver = webdriver.Chrome(PATH)
 refresh_webpage()
